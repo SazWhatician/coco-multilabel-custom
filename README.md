@@ -17,9 +17,10 @@ export GROQ_API_KEY=""  # Linux/Mac
 
 
 3. Start the server
+
 uvicorn app:app --reload
 
-4. Test via Swagger UI
+5. Test via Swagger UI
 http://127.0.0.1:8000/docs
 
    OR run test_api.ipynb
